@@ -1,3 +1,6 @@
+body{
+    margin:0px;padding:0px;
+}
 .frame{
     display:flex;
     font-size:20px
@@ -24,13 +27,14 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    height:300px;
+    height:300px;width: 100%;
     background-color: bisque;
+    
 
 }
 .text{
     font-size: 30px;font-weight:bold;
-    text-align: center;
+    text-align: ;
 }
 .ctn1{
     display:flex ;
@@ -43,9 +47,17 @@
 
 .p1{
     flex:none;width: 580px;height: 50px;
-    margin: 10px 10px 10px 0px;
+    margin: 10px 10px 10px 10px;
     background-color: blanchedalmond;
-   
+    align-items: ;
+
+}
+.pp1{
+    display:flex;
+    line-height: 50px;
+}
+.text2{
+    margin-left: 10px;
 
 }
 
